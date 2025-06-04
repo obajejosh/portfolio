@@ -24,8 +24,8 @@ const Header = () => {
             initial={{ y: -30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className='text-2xl sm:text-6xl lg:text-[42px] font-Ovo'>
-                Sr Consultant, AI-Machine Learning, Database and Software Development
+            className='text-2xl sm:text-6xl lg:text-[30px] font-Ovo'>
+                Sr. Consultant AI-Machine Learning, Database and Software Development
  based in Nigeria.</motion.h1>
             <motion.p 
             initial={{ opacity: 0 }}
@@ -34,7 +34,7 @@ const Header = () => {
             
             className='max-w-2xl mx-auto font-Ovo'>
                 I am a full stack developer from Lagos, Nigeria with over 16 years of experience
-                  in I.T. Consulting, Manufacturing and Eductational organizations.
+                  in I.T. Consulting, Manufacturing and Educational institutions.
             </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a 
